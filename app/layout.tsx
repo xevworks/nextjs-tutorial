@@ -28,7 +28,7 @@ export default function RootLayout({
         className={`${roboto.className} antialiased`}
       >
         <Navbar></Navbar>
-        <main className="py-20 max-w-6xl mx-auto">{children}</main>
+        <main className="p-20 max-w-6xl mx-auto">{children}</main>
       </body>
     </html>
   );
